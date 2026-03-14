@@ -260,3 +260,78 @@ class Training:
         )
 
         return total_loss, local_loss, future_loss, orth_loss
+
+    def train(trainer, epochs=1, lr=1e-5):
+
+        dataset = trainer.load_dataset()
+    
+        loader = DataLoader(
+            dataset,
+            batch_size=2,
+            shuffle=True,
+            collate_fn=collate_fn
+        )
+    
+        optimizer = trainer.build_optimizer(lr)
+    
+        for epoch in range(epochs):
+    
+            for step, batch in enumerate(loader):
+    
+                tokens = batch.to(trainer.device)
+    
+                optimizer.zero_grad()
+    
+                hidden = trainer.model.forward(tokens, 0)
+    
+                local, global_state = trainer.decomposer(hidden)
+    
+                logits = trainer.model.output(local)
+    
+                logits = logits[:, :-1, :]
+                targets = tokens[:, 1:]
+    
+                local_loss = F.cross_entropy(
+                    logits.reshape(-1, logits.size(-1)),
+                    targets.reshape(-1)
+                )
+    
+                future_loss = compute_future_loss(
+                    hidden,
+                    global_state,
+                    trainer.future_k
+                )
+    
+                orth_loss = compute_orth_loss(
+                    local,
+                    global_state
+                )
+    
+                total_loss = (
+                    local_loss
+                    + trainer.future_weight * future_loss
+                    + trainer.orth_weight * orth_loss
+                )
+    
+                total_loss.backward()
+                optimizer.step()
+    
+                if step % 10 == 0:
+    
+                    print(
+                        f"epoch {epoch} step {step} "
+                        f"loss {total_loss.item():.4f} "
+                        f"local {local_loss.item():.4f} "
+                        f"future {future_loss.item():.4f} "
+                        f"orth {orth_loss.item():.4f}"
+                    )
+    
+        torch.save(
+            {
+                "model": trainer.model.state_dict(),
+                "decomposer": trainer.decomposer.state_dict()
+            },
+            "future_planning_model.pt"
+        )
+    
+        print("Model saved.")

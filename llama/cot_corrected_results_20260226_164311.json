@@ -1,0 +1,869 @@
+{
+  "total_incorrect_samples": 108,
+  "corrected_samples": [
+    {
+      "original_id": 473,
+      "question": "Liam saw a 50-foot shark with 12 15-inch remoras attached to it. But 1/3 of the remoras go away. What percentage of the shark's body length is the combined length of the remaining remoras?",
+      "expected_number": "20",
+      "original_number": "240",
+      "corrected_number": "20",
+      "is_corrected": true
+    },
+    {
+      "original_id": 103,
+      "question": "A fog bank rolls in from the ocean to cover a city. It takes 64 minutes to cover every 2 miles of the city. If the city is 80 miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover a tenth of the city?",
+      "expected_number": "256",
+      "original_number": "6.25",
+      "corrected_number": "256",
+      "is_corrected": true
+    },
+    {
+      "original_id": 103,
+      "question": "A fog bank rolls in from the ocean to cover a city. It takes 107 minutes to cover every 6 miles of the city. If the city is 60 miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover 1/5 of the city?",
+      "expected_number": "214",
+      "original_number": "214.67",
+      "corrected_number": "214",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1264,
+      "question": "Viktor is popping popcorn for a snack. As the pan of kernels heats up, the kernels start popping faster. 80 pop in the first 30 seconds of cooking, then 2 times that amount in the next 30 seconds. The kernels increase to 4 times the initial popping rate in the next 30 seconds. In the final 30 seconds, the popping slows down to half the rate as the past 30 seconds. After Viktor takes the pan off the heat, a quarter of the number of kernels that popped in the final 30 seconds of cooking also pop from the residual heat. Viktor gives one-half of the made popcorns to his brother Arjun. How many pieces of popcorn does Viktor have to eat?",
+      "expected_number": "380",
+      "original_number": "330.0",
+      "corrected_number": "380",
+      "is_corrected": true
+    },
+    {
+      "original_id": 116,
+      "question": "Kimia makes tea using teaspoons of sugar and cups of water in the ratio of 63:21. She also uses 7 tablespoons of milk for every 7 cups of water. If she used a total of 630 teaspoons of sugar, cups of water, and tablespoons of milk, calculate the number of teaspoonfuls of sugar she used.",
+      "expected_number": "378",
+      "original_number": "441",
+      "corrected_number": "378",
+      "is_corrected": true
+    },
+    {
+      "original_id": 116,
+      "question": "Ananya makes tea using teaspoons of sugar and cups of water in the ratio of 66:48. She also uses 8 tablespoons of milk for every 8 cups of water. If she used a total of 810 teaspoons of sugar, cups of water, and tablespoons of milk, calculate the number of teaspoonfuls of sugar she used.",
+      "expected_number": "330",
+      "original_number": "231",
+      "corrected_number": "330",
+      "is_corrected": true
+    },
+    {
+      "original_id": 116,
+      "question": "Olga makes tea using teaspoons of sugar and cups of water in the ratio of 66:36. She also uses 7 tablespoons of milk for every 6 cups of water. If she used a total of 720 teaspoons of sugar, cups of water, and tablespoons of milk, calculate the number of teaspoonfuls of sugar she used.",
+      "expected_number": "330",
+      "original_number": "7.82",
+      "corrected_number": "330",
+      "is_corrected": true
+    },
+    {
+      "original_id": 145,
+      "question": "Sanjay has 80 square yards of pineapple field. There are 6 pineapples per 3/5 a square yard. Sanjay can harvest his pineapples every 12 months. How many pineapples can Sanjay harvest in 2 years?",
+      "expected_number": "1600",
+      "original_number": "800",
+      "corrected_number": "1600",
+      "is_corrected": true
+    },
+    {
+      "original_id": 145,
+      "question": "Ali has 5 hectares of pineapple field. There are 92 pineapples per 4/5 a hectare. Ali can harvest his pineapples every 6 months. How many pineapples can Ali harvest in 2 years?",
+      "expected_number": "2300",
+      "original_number": "1840",
+      "corrected_number": "2300",
+      "is_corrected": true
+    },
+    {
+      "original_id": 459,
+      "question": "A farmer is buying feed for his cows. He buys a variety of apples, corns, cucumbers and wheat. Since wheat are a rare treat, he only buys six 4-pound boxes of them for the whole stable. He only wants enough cucumbers to feed the cows while the vegetables are fresh, so he buys twelve 5-pound bags. Apples are the main diet of his cows, so he buys thirty two 43-pound packs. Corns are a staple to supplement the apples, so he buys eighteen 15-pound sacks. Finally, he buys 43 pounds of grocery, and 27 pounds of tools. A farm truck can carry 120 pounds at a time. How many trips does the farmer need to transport all the items, if he has three trucks?",
+      "expected_number": "5",
+      "original_number": "1761",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 459,
+      "question": "A farmer is buying feed for his alpacas. He buys a variety of apples, oats, cucumbers and corns. Since corns are a rare treat, he only buys eight 4-kg boxes of them for the whole stable. He only wants enough cucumbers to feed the alpacas while the vegetables are fresh, so he buys fourteen 7-kg bags. Apples are the main diet of his alpacas, so he buys thirty five 36-kg packs. Oats are a staple to supplement the apples, so he buys twenty 17-kg sacks. Finally, he buys 43 kgs of grocery, and 27 kgs of tools. A farm truck can carry 150 kgs at a time. How many trips does the farmer need to transport all the items, if he has three trucks?",
+      "expected_number": "4",
+      "original_number": "12",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 1223,
+      "question": "To make a call from a phone booth, you must pay ₺0.9 for each minute of your call. After 10 minutes, that price drops to ₺0.5 per minute. After 24 minutes from the start of the call, the price drops even more to ₺0.2 per two minutes. How much would a 94-minute call cost?",
+      "expected_number": "23",
+      "original_number": "22",
+      "corrected_number": "23",
+      "is_corrected": true
+    },
+    {
+      "original_id": 737,
+      "question": "Faisal wants to make different sized ice cubes with 344 grams of water. He can make giant cubes that use 13 grams per cube, medium cubes that use 11 grams, small cubes that use 3/4 of gram, and tiny cubes that are half the size of small cubes. If he makes 8 giant cubes, 24 small cubes, 13 medium cubes, and eight tiny cubes, how many grams of water does he have left?",
+      "expected_number": "76",
+      "original_number": "75",
+      "corrected_number": "76",
+      "is_corrected": true
+    },
+    {
+      "original_id": 99,
+      "question": "Gabrielle is an avid gardener. Last week, she received 38 new potted plants from her favorite plant nursery. She already has 11 potted plants on each of the 67 window ledges of her large country home. She also purchased 150 new plants yesterday at a 50% discount. Feeling generous, she has decided that she will give 6 potted plants from each ledge to friends and family tomorrow. How many potted plants will Gabrielle remain with?",
+      "expected_number": "523",
+      "original_number": "448",
+      "corrected_number": "523",
+      "is_corrected": true
+    },
+    {
+      "original_id": 99,
+      "question": "Nia is an avid gardener. Last night, she received 44 new potted plants from her favorite plant nursery. She already has 12 potted plants on each of the 64 window ledges of her large country home. She also purchased 160 new plants yesterday at a 50% discount. Feeling generous, she has decided that she will give 4 potted plants from each ledge to friends and family tomorrow. How many potted plants will Nia remain with?",
+      "expected_number": "716",
+      "original_number": "636",
+      "corrected_number": "716",
+      "is_corrected": true
+    },
+    {
+      "original_id": 99,
+      "question": "Aisha is an avid gardener. Last night, she received 43 new potted plants from her favorite plant nursery. She already has 8 potted plants on each of the 61 window ledges of her large country home. She also purchased 200 new plants yesterday at a 50% discount. Feeling generous, she has decided that she will give 7 potted plants from each ledge to friends and family tomorrow. How many potted plants will Aisha remain with?",
+      "expected_number": "304",
+      "original_number": "204",
+      "corrected_number": "304",
+      "is_corrected": true
+    },
+    {
+      "original_id": 684,
+      "question": "Oscar and Luca have 263 minutes to walk to gym together. It takes them 26 minutes to get to the corner where the grocery store is. It takes them another 27 minutes to get to the cinema. It will then take double the combined amount they have spent so far to reach the park. How much longer do they have to get to gym without being late, if they have already wasted 35 minutes to get a coffee before their walk?",
+      "expected_number": "69",
+      "original_number": "34",
+      "corrected_number": "69",
+      "is_corrected": true
+    },
+    {
+      "original_id": 458,
+      "question": "Amelia's dog has 107 puppies, 26 of which have spots. Tara's dog has 52 puppies, 16 of which have spots. Benjamin has 68 dogs, each having 12 puppies with spots. What percentage of all the puppies have spots?",
+      "expected_number": "88",
+      "original_number": "87.87",
+      "corrected_number": "88",
+      "is_corrected": true
+    },
+    {
+      "original_id": 976,
+      "question": "Liam is selling cookies and orange pies for a fundraiser. On Friday, he sold 25 boxes of cookie and 13 fewer boxes of orange pie, than on Saturday. On Saturday, he sold 11 more boxes of cookies than on Friday and 22 boxes of orange pie. On Sunday, he sold as much as he did in the past two days combined. If the cookie cost ¥12 and the orange pie cost ¥21, how much was Liam's average daily earning?",
+      "expected_number": "922",
+      "original_number": "961",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 976,
+      "question": "Santiago is selling brownies and grape pies for a fundraiser. On Sunday, he sold 24 boxes of brownie and 16 fewer boxes of grape pie, than on Monday. On Monday, he sold 11 more boxes of brownies than on Sunday and 26 boxes of grape pie. On Tuesday, he sold as much as he did in the past two days combined. If the brownie cost ₺9 and the grape pie cost ₺28, how much was Santiago's average daily earning?",
+      "expected_number": "1026",
+      "original_number": "1651.33",
+      "corrected_number": "1026",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1133,
+      "question": "Isabella walks 20 miles every day on her favorite walking trail, which includes 10 miles of walking on the beach and 10 miles of walking on the sidewalk. On the sidewalk, Isabella walks at three times the rate of speed that she does on the beach. However, due to a recent injury, Isabella's speed has decreased by half both on the beach and sidewalk. If 60 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 20-mile walk, in minutes?",
+      "expected_number": "80",
+      "original_number": "63.33",
+      "corrected_number": "80",
+      "is_corrected": true
+    },
+    {
+      "original_id": 158,
+      "question": "Bodhi went to buy some school supplies. He bought 16 colored pencils which cost ¥2.75 each, 10 crayons which cost ¥17.0 each, and a rim of bond paper which cost ¥20. He also bought 6 folders which cost ¥11 each. How much did Bodhi spend on everything if he receives 5% discount on all purchases?",
+      "expected_number": "285",
+      "original_number": null,
+      "corrected_number": "285",
+      "is_corrected": true
+    },
+    {
+      "original_id": 158,
+      "question": "Viktor went to buy some school supplies. He bought 20 folders which cost $2.5 each, 4 crayons which cost $14.5 each, and a rim of bond paper which cost $20. He also bought 4 pencils which cost $8 each. How much did Viktor spend on everything if he receives 25% discount on all purchases?",
+      "expected_number": "120",
+      "original_number": null,
+      "corrected_number": "120",
+      "is_corrected": true
+    },
+    {
+      "original_id": 158,
+      "question": "Sanjay went to buy some school supplies. He bought 20 colored pencils which cost ₣2.75 each, 4 rulers which cost ₣12.25 each, and a rim of bond paper which cost ₣16. He also bought 4 pencils which cost ₣10 each. How much did Sanjay spend on everything if he receives 5% discount on all purchases?",
+      "expected_number": "152",
+      "original_number": null,
+      "corrected_number": "152",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1021,
+      "question": "In a 80-item quiz, 25% of the questions are physics, 15% are algebra, and the rest are equally divided as chemistry and history questions. If Emma is sure to get 25% of algebra questions, 10% of the physics questions, and 1/3 of the chemistry and history questions correctly, how many points is she sure to get?",
+      "expected_number": "21",
+      "original_number": "13",
+      "corrected_number": "21",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1021,
+      "question": "In a 100-item quiz, 20% of the questions are biology, 20% are geography, and the rest are equally divided as chemistry and history questions. If Ananya is sure to get 25% of geography questions, 25% of the biology questions, and 1/5 of the chemistry and history questions correctly, how many points is she sure to get?",
+      "expected_number": "22",
+      "original_number": "16",
+      "corrected_number": "22",
+      "is_corrected": true
+    },
+    {
+      "original_id": 107,
+      "question": "Tariq watches TV after he finishes his homework every night. On Friday and Saturday, he watched 3-hour episodes of his favorite show each night. On Sunday, he watched a few episodes of a 45-minute show. On Monday, he finished homework early and watched a 4-hour episode and a 15-minute show. On Tuesday, he got to stay up late, so he watched four 2-hour episodes. On Wednesday, he watched three episodes, each 30 minutes. If he watched 22 hours of TV in all, how many 45-minute episodes did he watch on Sunday?",
+      "expected_number": "3",
+      "original_number": "2.67",
+      "corrected_number": "3",
+      "is_corrected": true
+    },
+    {
+      "original_id": 107,
+      "question": "Arash watches TV after he finishes his homework every night. On Wednesday and Thursday, he watched 6-hour episodes of his favorite show each night. On Friday, he watched a few episodes of a 15-minute show. On Saturday, he finished homework early and watched a 4-hour episode and a 45-minute show. On Sunday, he got to stay up late, so he watched four 3-hour episodes. On Monday, he watched two episodes, each 45 minutes. If he watched 32 hours of TV in all, how many 15-minute episodes did he watch on Friday?",
+      "expected_number": "7",
+      "original_number": "1.0",
+      "corrected_number": "7",
+      "is_corrected": true
+    },
+    {
+      "original_id": 107,
+      "question": "Gabriel watches TV after he finishes his homework every night. On Saturday and Sunday, he watched 4-hour episodes of his favorite show each night. On Monday, he watched a few episodes of a 15-minute show. On Tuesday, he finished homework early and watched a 4-hour episode and a 30-minute show. On Wednesday, he got to stay up late, so he watched four 3-hour episodes. On Thursday, he watched two episodes, each 30 minutes. If he watched 26 hours of TV in all, how many 15-minute episodes did he watch on Monday?",
+      "expected_number": "2",
+      "original_number": null,
+      "corrected_number": "2",
+      "is_corrected": true
+    },
+    {
+      "original_id": 125,
+      "question": "Tara was preparing for a baby shower at her house, where she intended to serve stuffed peppers. She noticed that she was out of plastic forks, so she bought a new package of forks. Later, her husband also bought a package of 8 new forks and gave them to Tara. While Tara was making the stuffed peppers, she used nineteen of the forks to sample her stuffed peppers. The guests also brought 3 packs of forks, each having 6 inside them. Later, when she went to set the table, she had a total of 47 forks. How many forks were in the package that Tara bought?",
+      "expected_number": "40",
+      "original_number": "2.0",
+      "corrected_number": "40",
+      "is_corrected": true
+    },
+    {
+      "original_id": 43,
+      "question": "According to its nutritional info, a bag of breads has 275 calories per serving. If a 150 ounces bag has 5 servings, how many ounces can you eat if your daily calorie target is 1950 and you have already consumed 1500 calories and exercised for 100 calories?",
+      "expected_number": "60",
+      "original_number": "0.254",
+      "corrected_number": "60",
+      "is_corrected": true
+    },
+    {
+      "original_id": 43,
+      "question": "According to its nutritional info, a bag of cookies has 450 calories per serving. If a 300 oz bag has 6 servings, how many oz can you eat if your daily calorie target is 2000 and you have already consumed 1600 calories and exercised for 50 calories?",
+      "expected_number": "50",
+      "original_number": "155.5",
+      "corrected_number": "50",
+      "is_corrected": true
+    },
+    {
+      "original_id": 43,
+      "question": "According to its nutritional info, a bag of popcorn has 400 calories per serving. If a 250 grams bag has 5 servings, how many grams can you eat if your daily calorie target is 2150 and you have already consumed 1450 calories and exercised for 100 calories?",
+      "expected_number": "100",
+      "original_number": "500",
+      "corrected_number": "100",
+      "is_corrected": true
+    },
+    {
+      "original_id": 982,
+      "question": "In Ms. Johnson's class of 125 students, 40% of the class are soccer players. Out of the remaining class, 17% of the students are choir members or part of dancers. These 3 groups of students will need to leave early today to travel to an away competition. Half of the soccer players are absent for being sick. Also, 3 cheerleaders will accompany each of these groups. How many students are leaving early to the competition?",
+      "expected_number": "46",
+      "original_number": "47",
+      "corrected_number": "46",
+      "is_corrected": true
+    },
+    {
+      "original_id": 982,
+      "question": "In Mrs. Garcia's class of 100 students, 40% of the class are swimmers. Out of the remaining class, 20% of the students are debate team members or part of robotics club members. These 3 groups of students will need to leave early today to travel to an away tournament. Half of the swimmers are absent for being sick. Also, 3 cheerleaders will accompany each of these groups. How many students are leaving early to the tournament?",
+      "expected_number": "41",
+      "original_number": "72",
+      "corrected_number": "41",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1063,
+      "question": "Chen receives 160 emails a day. 25% of those emails don't require any response. From the rest, Chen can only respond to 7 less than 1/5 of them. How many emails does Chen respond to in a 5-day work week?",
+      "expected_number": "85",
+      "original_number": "565",
+      "corrected_number": "85",
+      "is_corrected": true
+    },
+    {
+      "original_id": 955,
+      "question": "A hospital has a capacity of 1800 beds with 1/6 occupied and three-fifths of all the beds being out of service. Due to the flu season, 25 patients are admitted into the hospital each day. Calculate the total number of unoccupied beds in the hospital after 2 weeks.",
+      "expected_number": "70",
+      "original_number": "1030",
+      "corrected_number": "70",
+      "is_corrected": true
+    },
+    {
+      "original_id": 496,
+      "question": "Leon is 12 years old. In 6 years his sister Kimia will be 3 times as old as Leon is now. What is the average of Leon and Kimia in 2 years?",
+      "expected_number": "23",
+      "original_number": "22.0",
+      "corrected_number": "23",
+      "is_corrected": true
+    },
+    {
+      "original_id": 496,
+      "question": "Tariq is 21 years old. In 7 years his sister Aisha will be 2 times as old as Tariq is now. What is the average of Tariq and Aisha in 5 years?",
+      "expected_number": "33",
+      "original_number": "40.0",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 873,
+      "question": "Mateo has $88.16 and wants to buy 53 washers from a bin at the hardware store. Mateo also needs 9 screws, each costing $0.79. Each washer costs $0.85. How much money does Mateo have left after paying for the items?",
+      "expected_number": "36",
+      "original_number": null,
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 1277,
+      "question": "Mei, Winnie are currently 23 years apart in age. Mei and Tara are currently 17 years apart. If Mei, who is younger than Winnie but older than Tara, is 44 years old, what's the average of their ages?",
+      "expected_number": "46",
+      "original_number": "30.67",
+      "corrected_number": "46",
+      "is_corrected": true
+    },
+    {
+      "original_id": 265,
+      "question": "Mrs. Lee is looking for a townhouse that will not go beyond her $440000 budget. She saw a property that has a selling price of $600000. On top of that, the buyer has to pay a brokerage fee which is 3% of the selling price, and also the transfer fee that is 12% of the selling price. If Mrs. Lee can get 20% discount on the selling price, how much more is the total cost will be than Mrs. Lee's budget?",
+      "expected_number": "112000",
+      "original_number": "136000",
+      "corrected_number": "112000",
+      "is_corrected": true
+    },
+    {
+      "original_id": 265,
+      "question": "Dr. Patel is looking for a condo that will not go beyond her $460000 budget. She saw a property that has a selling price of $680000. On top of that, the buyer has to pay a brokerage fee which is 7% of the selling price, and also the transfer fee that is 12% of the selling price. If Dr. Patel can get 25% discount on the selling price, how much more is the total cost will be than Dr. Patel's budget?",
+      "expected_number": "146900",
+      "original_number": "136100.0",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 266,
+      "question": "Prof. Rodriguez sold his villa for $220000. He paid the registration fees that amount to 2% of the selling price and also paid the agent fee that is 2% of the selling price. If he also paid $180000 for the remaining loan amount of the villa, and $15000 for closing costs, how much is Prof. Rodriguez's net proceeds from selling the villa?",
+      "expected_number": "16200",
+      "original_number": null,
+      "corrected_number": "16200",
+      "is_corrected": true
+    },
+    {
+      "original_id": 266,
+      "question": "Mr. Davis sold his condo for $790000. He paid the transfer fees that amount to 1% of the selling price and also paid the brokerage fee that is 2% of the selling price. If he also paid $510000 for the remaining loan amount of the condo, and $10000 for closing costs, how much is Mr. Davis's net proceeds from selling the condo?",
+      "expected_number": "246300",
+      "original_number": null,
+      "corrected_number": "246300",
+      "is_corrected": true
+    },
+    {
+      "original_id": 266,
+      "question": "Mr. Williams sold his condo for $470000. He paid the transfer fees that amount to 3% of the selling price and also paid the brokerage fee that is 6% of the selling price. If he also paid $280000 for the remaining loan amount of the condo, and $10000 for closing costs, how much is Mr. Williams's net proceeds from selling the condo?",
+      "expected_number": "137700",
+      "original_number": null,
+      "corrected_number": "137700",
+      "is_corrected": true
+    },
+    {
+      "original_id": 788,
+      "question": "Ali is raising money for a sports tournament. He has applied for help from the local charity, which has decided to cover 1/10 of the cost of the sports tournament. His friends have also chipped in and will cover a tenth of the sports tournament. How much money is Ali missing if he has ₣90 and the sports tournament costs ₣700?",
+      "expected_number": "470",
+      "original_number": null,
+      "corrected_number": "470",
+      "is_corrected": true
+    },
+    {
+      "original_id": 11,
+      "question": "Nadia went to the patisserie and bought various types of baked goods. She bought 2 dozen croissants which cost $14 per dozen, 8 dozen macarons which cost $82 per dozen, and 8 dozen brownies for $112 per dozen. How much was the total cost if she received 10% discount on all purchases?",
+      "expected_number": "1422",
+      "original_number": null,
+      "corrected_number": "1422",
+      "is_corrected": true
+    },
+    {
+      "original_id": 11,
+      "question": "Chen went to the cafe and bought various types of treats. She bought 6 dozen danishes which cost $19 per dozen, 5 dozen tarts which cost $77 per dozen, and 5 dozen scones for $117 per dozen. How much was the total cost if she received 25% discount on all purchases?",
+      "expected_number": "813",
+      "original_number": null,
+      "corrected_number": "813",
+      "is_corrected": true
+    },
+    {
+      "original_id": 11,
+      "question": "Nadia went to the patisserie and bought various types of baked goods. She bought 5 dozen croissants which cost $11 per dozen, 4 dozen macarons which cost $74 per dozen, and 6 dozen brownies for $119 per dozen. How much was the total cost if she received 20% discount on all purchases?",
+      "expected_number": "852",
+      "original_number": null,
+      "corrected_number": "852",
+      "is_corrected": true
+    },
+    {
+      "original_id": 799,
+      "question": "A loaf of bread at the store costs ₣5. The cost of a croissant is three-fourths of a loaf of bread. How much more do 5 loaves of bread cost than 4 croissants?",
+      "expected_number": "10",
+      "original_number": null,
+      "corrected_number": "10.0",
+      "is_corrected": true
+    },
+    {
+      "original_id": 799,
+      "question": "A loaf of sourdough at the market costs $11. The cost of a biscuit is three-fourths of a loaf of sourdough. How much more do 9 loaves of sourdough cost than 8 biscuits?",
+      "expected_number": "33",
+      "original_number": null,
+      "corrected_number": "33.0",
+      "is_corrected": true
+    },
+    {
+      "original_id": 410,
+      "question": "Kimia went to the coast for vacation. Her parents gave her ¥1400 to buy whatever she wanted. At the seaside store, cotton candy was on sale for \"Buy 15 pounds at ¥22 per pound, get 4 pounds 1/4 off.\" She scooped up 21 pounds. She also bought a mixed bag of coral pieces for ¥11.0 and 12 pins that were ¥20.0 each. Kimia then donated ¥5 at a charity stand along the way. How much money does Kimia have left?",
+      "expected_number": "704",
+      "original_number": "748.0",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 410,
+      "question": "Sakura went to the boardwalk for vacation. Her parents gave her ₺1300 to buy whatever she wanted. At the gift shop, saltwater taffy was on sale for \"Buy 16 kilograms at ₺22 per kilogram, get 6 kilograms 1/2 off.\" She scooped up 23 kilograms. She also bought a mixed bag of starfish for ₺11.0 and 18 keychains that were ₺20.0 each. Sakura then donated ₺5 at a charity stand along the way. How much money does Sakura have left?",
+      "expected_number": "484",
+      "original_number": "511.0",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 410,
+      "question": "Chen went to the boardwalk for vacation. Her parents gave her ¥1400 to buy whatever she wanted. At the gift shop, saltwater taffy was on sale for \"Buy 16 pounds at ¥23 per pound, get 4 pounds 1/2 off.\" She scooped up 21 pounds. She also bought a mixed bag of starfish for ¥11.0 and 14 keychains that were ¥20.5 each. Chen then donated ¥5 at a charity stand along the way. How much money does Chen have left?",
+      "expected_number": "660",
+      "original_number": "638.0",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 661,
+      "question": "Ali goes to the store to buy some rice. The normal brand of rice he buys costs ₣5 per kg. He had to buy a more expensive brand that costs 40% more since his favorite brand was sold out. He decides to buy a week's worth of rice and he uses 2 kgs of rice per day. He also decided to buy himself a cookie for ₣2. Since he shopped more than ₣50, he received a ₣15 discount. How much does Ali have to pay?",
+      "expected_number": "85",
+      "original_number": null,
+      "corrected_number": "85",
+      "is_corrected": true
+    },
+    {
+      "original_id": 661,
+      "question": "Yuki goes to the store to buy some rice. The normal brand of rice he buys costs €15 per kg. He had to buy a more expensive brand that costs 40% more since his favorite brand was sold out. He decides to buy a week's worth of rice and he uses 2 kgs of rice per day. He also decided to buy himself a bagel for €1. Since he shopped more than €50, he received a €21 discount. How much does Yuki have to pay?",
+      "expected_number": "274",
+      "original_number": null,
+      "corrected_number": "274",
+      "is_corrected": true
+    },
+    {
+      "original_id": 984,
+      "question": "Aisha has a flower bed that is 117 meters long. Aisha wants to fill her flower bed with plants. Aisha's flowers grow 5meters wide so she needs to leave 13 meters between every plant (including the plants width). Aisha already owns 5 flowers. Each flowering plant costs $10 at the store. However, if she buys more than 2 plants, she'll receive a $10 discount on the entire purchase. How much money will Aisha spend at the store to fill up her flower bed?",
+      "expected_number": "30",
+      "original_number": null,
+      "corrected_number": "30",
+      "is_corrected": true
+    },
+    {
+      "original_id": 984,
+      "question": "Camila has a flower bed that is 143 meters long. Camila wants to fill her flower bed with plants. Camila's flowers grow 2meters wide so she needs to leave 13 meters between every plant (including the plants width). Camila already owns 6 flowers. Each flowering plant costs $3 at the store. However, if she buys more than 2 plants, she'll receive a $6 discount on the entire purchase. How much money will Camila spend at the store to fill up her flower bed?",
+      "expected_number": "9",
+      "original_number": "21",
+      "corrected_number": "9",
+      "is_corrected": true
+    },
+    {
+      "original_id": 984,
+      "question": "Priya has a flower bed that is 150 feet long. Priya wants to fill her flower bed with plants. Priya's flowers grow 5feet wide so she needs to leave 15 feet between every plant (including the plants width). Priya already owns 5 flowers. Each flowering plant costs ¥14 at the store. However, if she buys more than 2 plants, she'll receive a ¥9 discount on the entire purchase. How much money will Priya spend at the store to fill up her flower bed?",
+      "expected_number": "61",
+      "original_number": "19",
+      "corrected_number": "61",
+      "is_corrected": true
+    },
+    {
+      "original_id": 989,
+      "question": "Nia can peel 6 carrots a minute and saute 30 carrots in 18 minutes. How long will it take her to peel and saute 120 carrots if it takes 13 minutes to wash all the carrots? Note that Nia can't work in parallel.",
+      "expected_number": "105",
+      "original_number": "37",
+      "corrected_number": "105",
+      "is_corrected": true
+    },
+    {
+      "original_id": 989,
+      "question": "Daphne can peel 4 clams a minute and saute 20 clams in 15 minutes. How long will it take her to peel and saute 140 clams if it takes 22 minutes to wash all the clams? Note that Daphne can't work in parallel.",
+      "expected_number": "162",
+      "original_number": "64",
+      "corrected_number": "162",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1165,
+      "question": "Wei collects garbage from 3 different apartment complexes. The first 2 have 300 apartments each and the last one is 60% bigger than the other 2 combined. Wei collects garbage 5 times a week from each place and he gets paid ¥0.25 per collection for each apartment. He also earns 14% on tips. How much money does he make in a week?",
+      "expected_number": "2223",
+      "original_number": "6669.0",
+      "corrected_number": "2223",
+      "is_corrected": true
+    },
+    {
+      "original_id": 74,
+      "question": "Leilani has a herb stand at the town square. Leilani sells three kinds of herbs: sunflowers, lilies and daisies. Leilani usually sells sunflowers for $1.59 per bundle, lilies for $4.87 per bundle and daisies for $5.16 per bundle. Leilani has no change today, so Leilani has decided to round all his prices to the nearest dollar. Leilani sells 11 bundles of sunflowers, 23 bundles of lilies and 39 bundles of daisies. How much will Leilani make, after receiving a 25% tip on every purchase?",
+      "expected_number": "415",
+      "original_number": "414.25",
+      "corrected_number": "415",
+      "is_corrected": true
+    },
+    {
+      "original_id": 800,
+      "question": "Viktor scored 496 points in one game of darts. Diego scored 48 points more than 2/4 as many as Viktor. What is the average of their scores?",
+      "expected_number": "396",
+      "original_number": "198",
+      "corrected_number": "396",
+      "is_corrected": true
+    },
+    {
+      "original_id": 546,
+      "question": "Uma is learning to write and decides to keep re-writing the alphabet until she knows it. She writes it in full eight times, writes two-fourths of it once, then re-writes everything she has already written. After some rest, again she re-writes everything she has written so far. How many letters has Uma written in total?",
+      "expected_number": "884",
+      "original_number": null,
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 546,
+      "question": "Elena is learning to write and decides to keep re-writing the arabic abjad (with 28 letters) until she knows it. She writes it in full seven times, writes 3/4 of it once, then re-writes everything she has already written. After some rest, again she re-writes everything she has written so far. How many letters has Elena written in total?",
+      "expected_number": "868",
+      "original_number": "747",
+      "corrected_number": "868",
+      "is_corrected": true
+    },
+    {
+      "original_id": 20,
+      "question": "I have 14 liters of mango drink that is 1/2 water and I wish to add it to 30 liters of peach drink that is 1/3 water. But as I pour it, I spill 10 liters of the mango drink. To make up for that, I add 10 liters of water to the mix. What percentage of the final mix is water?",
+      "expected_number": "50",
+      "original_number": "64.71",
+      "corrected_number": "50",
+      "is_corrected": true
+    },
+    {
+      "original_id": 20,
+      "question": "I have 20 liters of mango drink that is one-third water and I wish to add it to 30 liters of grape drink that is 1/3 water. But as I pour it, I spill 5 liters of the mango drink. To make up for that, I add 5 liters of water to the mix. What percentage of the final mix is water?",
+      "expected_number": "40",
+      "original_number": "20.98",
+      "corrected_number": "40",
+      "is_corrected": true
+    },
+    {
+      "original_id": 304,
+      "question": "Andre works a 9-hour shift each day, 3 days a week. He earns ₺13 per hour and gets a ₺578 bonus each week if the company performs well. Andre also has to pay 25% as income tax. How much money did Andre make after tax in June if the company performed very well for the whole month?",
+      "expected_number": "2787",
+      "original_number": "2788.0",
+      "corrected_number": "2787",
+      "is_corrected": true
+    },
+    {
+      "original_id": 304,
+      "question": "Deshawn works a 9-hour shift each day, 4 days a week. He earns ₺11 per hour and gets a ₺485 bonus each week if the company performs well. Deshawn also has to pay 25% as income tax. How much money did DeShawn make after tax in February if the company performed very well for the whole month?",
+      "expected_number": "2643",
+      "original_number": "2642.0",
+      "corrected_number": "2643",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1247,
+      "question": "Kai has a bag of beads with 84 inside. He tripped over a rock while carrying it and dropped two-fourths of them. He scrambled to search for them but only came up with 10. When he went back home, he inspected the beads further. Five of them he picked up weren't beads, but actually buttons, so he got rid of them. Seeing how upset Kai was, his father gave him a pouch of beads with 6 beads inside. How many beads did Kai end up with?",
+      "expected_number": "53",
+      "original_number": "38",
+      "corrected_number": "53",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1247,
+      "question": "Arash has a bag of pebbles with 74 inside. He tripped over a stick while carrying it and dropped two-fourths of them. He scrambled to search for them but only came up with 6. When he went back home, he inspected the pebbles further. Three of them he picked up weren't pebbles, but actually coins, so he got rid of them. Seeing how upset Arash was, his father gave him a pouch of pebbles with 8 pebbles inside. How many pebbles did Arash end up with?",
+      "expected_number": "48",
+      "original_number": "51",
+      "corrected_number": "48",
+      "is_corrected": true
+    },
+    {
+      "original_id": 469,
+      "question": "Gabrielle has 19 jars of frosting in her cupboard. Each jar of frosting can decorate 7 cookies. Gabrielle wants to bake enough cookies to use up all of her frosting. Gabrielle has 9 trays, each can hold 19 cookies. After using all her frosting to bake cookies and putting them in trays, how many empty trays will Gabrielle be left with?",
+      "expected_number": "2",
+      "original_number": "1",
+      "corrected_number": "2",
+      "is_corrected": true
+    },
+    {
+      "original_id": 164,
+      "question": "Aisha is trying to decide whether to do her taxes herself or hire a financial advisor. If she does them herself, she'll be able to do 9 fewer hours of consulting work, losing $86/hour in missed income. Additionally, if she does her taxes herself, she'll need to spend 3 hours mailing the completed tax documents, further reducing her consulting time. A financial advisor charges $105. How much more money will she have if she hires a financial advisor?",
+      "expected_number": "927",
+      "original_number": "-927.0",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 164,
+      "question": "Winnie is trying to decide whether to do her taxes herself or hire a financial advisor. If she does them herself, she'll be able to do 6 fewer hours of contract work, losing $57/hour in missed income. Additionally, if she does her taxes herself, she'll need to spend 3 hours mailing the completed tax documents, further reducing her contract time. A financial advisor charges $96. How much more money will she have if she hires a financial advisor?",
+      "expected_number": "417",
+      "original_number": null,
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 728,
+      "question": "Amelia has 26 light green spools of thread, 44 dark green spools of thread, 21 light red spools of thread, and 19 dark red spools of thread. She also has two times as many white spools as green spools. What percent of her spools are green?",
+      "expected_number": "28",
+      "original_number": "33.333333333333336",
+      "corrected_number": "28",
+      "is_corrected": true
+    },
+    {
+      "original_id": 728,
+      "question": "Emma has 28 light green spools of thread, 44 dark green spools of thread, 56 light cyan spools of thread, and 16 dark cyan spools of thread. She also has three times as many white spools as green spools. What percent of her spools are green?",
+      "expected_number": "20",
+      "original_number": "25",
+      "corrected_number": "20",
+      "is_corrected": true
+    },
+    {
+      "original_id": 728,
+      "question": "Rania has 21 light black spools of thread, 31 dark black spools of thread, 41 light cyan spools of thread, and 11 dark cyan spools of thread. She also has three times as many purple spools as black spools. What percent of her spools are black?",
+      "expected_number": "20",
+      "original_number": "50",
+      "corrected_number": "20",
+      "is_corrected": true
+    },
+    {
+      "original_id": 401,
+      "question": "A carpenter works for 2 weeks every month and 2 days every week. He gets paid €20 every day. How much does he earn in a year after paying 20% in taxes?",
+      "expected_number": "768",
+      "original_number": "5376.0",
+      "corrected_number": "768",
+      "is_corrected": true
+    },
+    {
+      "original_id": 401,
+      "question": "A plumber works for 2 weeks every month and 3 days every week. He gets paid $30 every day. How much does he earn in a year after paying 15% in taxes?",
+      "expected_number": "1836",
+      "original_number": null,
+      "corrected_number": "1836",
+      "is_corrected": true
+    },
+    {
+      "original_id": 242,
+      "question": "Thiago was a pen pal with 8 people. He stopped being penpals with 3 of them. They each send 4 letters a week that are 9 pages long. He responds in kind. He can write a page every 7 minutes. On average, how many hours does Thiago spend writing in a day?",
+      "expected_number": "3",
+      "original_number": "21",
+      "corrected_number": "3",
+      "is_corrected": true
+    },
+    {
+      "original_id": 242,
+      "question": "Xavier was a pen pal with 13 people. He stopped being penpals with 4 of them. They each send 4 letters a week that are 7 pages long. He responds in kind. He can write a page every 10 minutes. On average, how many hours does Xavier spend writing in a day?",
+      "expected_number": "6",
+      "original_number": "42",
+      "corrected_number": "6",
+      "is_corrected": true
+    },
+    {
+      "original_id": 991,
+      "question": "Comet Hyakutake orbits the Sun every 62 years. Sanjay's dad saw the comet when he was 32 years old. Sanjay saw the comet for the second time when he was two times the age his dad was when he first saw the comet. How much older is Sanjay's dad than Sanjay?",
+      "expected_number": "30",
+      "original_number": null,
+      "corrected_number": "30",
+      "is_corrected": true
+    },
+    {
+      "original_id": 991,
+      "question": "Comet Hale-Bopp orbits the Sun every 58 years. Andre's father saw the comet when he was 34 years old. Andre saw the comet for the second time when he was two times the age his father was when he first saw the comet. How much older is Andre's father than Andre?",
+      "expected_number": "24",
+      "original_number": "34",
+      "corrected_number": "24",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1111,
+      "question": "There are currently 5 pink balls, 8 red balls, and 22 purple balls in the warehouse. Pink balls cost ¥12, purple balls cost ¥6, and red balls cost ¥9. The warehouse has a promotion that gives a 25% discount on all purchases. How much will the warehouse have received after all the balls are sold?",
+      "expected_number": "198",
+      "original_number": null,
+      "corrected_number": "198",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1207,
+      "question": "Ali caught 5 steelheads last Friday, the first steelhead he caught weighs 57 kgs, the second steelhead he caught weighs 47 kgs, and each of the rest steelhead he caught weighs 21 kgs more than the second one. If a kg of steelhead costs $1.75, how much will he earn after selling all the steelheads to the market?",
+      "expected_number": "539",
+      "original_number": "650.25",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 1088,
+      "question": "There are 5 periods in the day for a normal student but Liam has to take 3 extra classes. Each class is 35 minutes long, but he spends 5 minutes before each class to review the study materials and prepare. He goes to class for 5 days a week. He then spends one-tenth of his weekly minutes each on Saturday and Sunday as extra learning time. How many hours a week does he spend learning?",
+      "expected_number": "32",
+      "original_number": "12",
+      "corrected_number": "32",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1088,
+      "question": "There are 9 periods in the day for a normal student but Carlos has to take 2 extra classes. Each class is 35 minutes long, but he spends 5 minutes before each class to review the study materials and prepare. He goes to class for 5 days a week. He then spends 1/10 of his weekly minutes each on Saturday and Sunday as extra learning time. How many hours a week does he spend learning?",
+      "expected_number": "44",
+      "original_number": "7.33",
+      "corrected_number": "44",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1088,
+      "question": "There are 5 periods in the day for a normal student but Carlos has to take 2 extra classes. Each class is 45 minutes long, but he spends 15 minutes before each class to review the study materials and prepare. He goes to class for 4 days a week. He then spends one-seventh of his weekly minutes each on Saturday and Sunday as extra learning time. How many hours a week does he spend learning?",
+      "expected_number": "36",
+      "original_number": "10.29",
+      "corrected_number": "36",
+      "is_corrected": true
+    },
+    {
+      "original_id": 434,
+      "question": "The vending machine sells popcorn packs for 80 cents, cookies for 100 cents, and gum for ₤11. Kai spent ₤100 and got 5 bags of popcorn packs, 3 packs of gum, and had 9% of his money left in change. How many cookies did he buy?",
+      "expected_number": "54",
+      "original_number": "3.66",
+      "corrected_number": "54",
+      "is_corrected": true
+    },
+    {
+      "original_id": 320,
+      "question": "At the beginning of the party, there were 76 people, of which 33 were artists, and the rest were engineers. After half an hour, two-fourths of the total number of people left. How many engineers have stayed at the party, if 14 artists remained?",
+      "expected_number": "24",
+      "original_number": "19",
+      "corrected_number": "24",
+      "is_corrected": true
+    },
+    {
+      "original_id": 1305,
+      "question": "The Johnson family is busy making cupcakes. So far, they've made 8300 cupcakes. They have 1355 lemon cupcakes, 1965 blueberry cupcakes, and some vanilla cupcakes. What percentage of the cupcakes they have made are vanilla cupcakes?",
+      "expected_number": "60",
+      "original_number": "83.73",
+      "corrected_number": "60",
+      "is_corrected": true
+    },
+    {
+      "original_id": 336,
+      "question": "Keisha buys 8 shares of a stock for €44 each. The stock price increases 75% in the first year Keisha holds it, then decreases 50% in the second year. In the third year, the stock price increases by 25%. By the end of the third year, how much profit has Keisha made?",
+      "expected_number": "33",
+      "original_number": "33.04",
+      "corrected_number": "33",
+      "is_corrected": true
+    },
+    {
+      "original_id": 336,
+      "question": "Sofia buys 6 shares of a stock for $35 each. The stock price increases 50% in the first year Sofia holds it, then decreases 20% in the second year. In the third year, the stock price increases by 25%. By the end of the third year, how much profit has Sofia made?",
+      "expected_number": "105",
+      "original_number": "-157.50",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 336,
+      "question": "Olga buys 16 shares of a stock for ₺92 each. The stock price increases 50% in the first year Olga holds it, then decreases 25% in the second year. In the third year, the stock price increases by 25%. By the end of the third year, how much profit has Olga made?",
+      "expected_number": "598",
+      "original_number": "-1342.375",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 1053,
+      "question": "Beatriz qualified for a spot on the soccer team, so she went shopping for some athletic gear. She bought a jersey for ¥19, a pair of soccer leggings for ¥10 more than the jersey cost, and a pair of cleats that were originally ¥30 but were on sale for two-sixths price. She had a coupon for ¥3 off the package of ¥9 athletic headbands that she also bought. Finally, she got a duffle bag for ¥42 but with a 50% discount, and a water bottle for ¥3. How much did she spend on athletic gear?",
+      "expected_number": "88",
+      "original_number": "98",
+      "corrected_number": "88",
+      "is_corrected": true
+    },
+    {
+      "original_id": 652,
+      "question": "Yusuf hires a boat from 2 PM to 8 PM. He gets 2 hours free. There is a fixed insurance cost of $10 as well. The first paid hour is $24 and each hour after that is twice the cost. How much did he pay?",
+      "expected_number": "178",
+      "original_number": "360",
+      "corrected_number": "178",
+      "is_corrected": true
+    },
+    {
+      "original_id": 652,
+      "question": "Luis hires a boat from 2 PM to 9 PM. He gets 3 hours free. There is a fixed insurance cost of ₺20 as well. The first paid hour is ₺42 and each hour after that is thrice the cost. How much did he pay?",
+      "expected_number": "440",
+      "original_number": "314.0",
+      "corrected_number": "460",
+      "is_corrected": false
+    },
+    {
+      "original_id": 149,
+      "question": "Ravi has five times as many LinkedIn friends as Andre. Ali has thrice as many friends on LinkedIn as Andre. Ravi has 90 friends on LinkedIn. On average, how many LinkedIn friends do Ravi, Andre, and Ali have?",
+      "expected_number": "54",
+      "original_number": "41.33",
+      "corrected_number": "54",
+      "is_corrected": true
+    },
+    {
+      "original_id": 406,
+      "question": "At Ali's house, there are eight times as many bananas as grapes. He has a total of 37 grapes in his house. Ali then bought 55 more grapes at the store and 14 fewer bananas than the number of grapes. He later bought 11 bananas and 16 fewer than two times as many grapes. How many bananas and grapes does Ali have in the house combined?",
+      "expected_number": "446",
+      "original_number": "257",
+      "corrected_number": "446",
+      "is_corrected": true
+    },
+    {
+      "original_id": 406,
+      "question": "At Bodhi's house, there are six times as many pineapples as grapes. He has a total of 32 grapes in his house. Bodhi then bought 52 more grapes at the store and 15 fewer pineapples than the number of grapes. He later bought 14 pineapples and 13 fewer than two times as many grapes. How many pineapples and grapes does Bodhi have in the house combined?",
+      "expected_number": "342",
+      "original_number": "514",
+      "corrected_number": "342",
+      "is_corrected": true
+    },
+    {
+      "original_id": 406,
+      "question": "At Arash's house, there are five times as many kiwis as apricots. He has a total of 22 apricots in his house. Arash then bought 62 more apricots at the store and 23 fewer kiwis than the number of apricots. He later bought 9 kiwis and 12 fewer than two times as many apricots. How many kiwis and apricots does Arash have in the house combined?",
+      "expected_number": "248",
+      "original_number": "478",
+      "corrected_number": null,
+      "is_corrected": false
+    },
+    {
+      "original_id": 554,
+      "question": "When the water is cold, Luca swims a kilometer in 10 minutes. When the water is warm, Luca swims a kilometer in 1 minutes more than four times as long. How much longer does Luca take to swim 3 kilometers on a warm day than 9 kilometers on a cold day?",
+      "expected_number": "33",
+      "original_number": "49",
+      "corrected_number": "33",
+      "is_corrected": true
+    },
+    {
+      "original_id": 357,
+      "question": "Olga's uncle said that she had $260 budgeted for her birthday party. She wants to make sure she and her friends each get to play one round of laser tag, have $6 in pinball tokens, and get to ride the roller coaster seven times. A round of laser tag is $3. The roller coaster costs $13 per ride. For the transportation of the birthday party guests, Olga needs to rent a bus for the day, which costs $60. How many friends can she invite?",
+      "expected_number": "1",
+      "original_number": "33.33",
+      "corrected_number": "1",
+      "is_corrected": true
+    },
+    {
+      "original_id": 357,
+      "question": "Amelia's mom said that she had ₣270 budgeted for her birthday party. She wants to make sure she and her friends each get to play one round of mini-golf, have ₣7 in arcade tokens, and get to ride the go-karts two times. A round of mini-golf is ₣7. The go-karts costs ₣13 per ride. For the transportation of the birthday party guests, Amelia needs to rent a bus for the day, which costs ₣70. How many friends can she invite?",
+      "expected_number": "4",
+      "original_number": "10",
+      "corrected_number": "4",
+      "is_corrected": true
+    },
+    {
+      "original_id": 357,
+      "question": "Tara's aunt said that she had ¥230 budgeted for her birthday party. She wants to make sure she and her friends each get to play one round of mini-golf, have ¥3 in arcade tokens, and get to ride the go-karts four times. A round of mini-golf is ¥8. The go-karts costs ¥6 per ride. For the transportation of the birthday party guests, Tara needs to rent a bus for the day, which costs ¥90. How many friends can she invite?",
+      "expected_number": "3",
+      "original_number": "31.333333333333336",
+      "corrected_number": "3",
+      "is_corrected": true
+    },
+    {
+      "original_id": 858,
+      "question": "A new virus infects 17 people. Every day, each infected person infects 3 others. How many people are infected after 4 days?",
+      "expected_number": "4352",
+      "original_number": "1088",
+      "corrected_number": "4352",
+      "is_corrected": true
+    }
+  ]
+}

@@ -2,13 +2,13 @@ import json
 import os
 import time
 from pathlib import Path
-
+import sys
 import torch
 import torch.nn.functional as F
-
-from model import ModelArgs, Transformer
-from separation import HiddenStateDecomposer
-from tokenizer import ChatFormat, Tokenizer
+sys.path.append(os.path.abspath(".."))
+from llama.model import ModelArgs, Transformer
+from llama.train.separation import HiddenStateDecomposer
+from llama.tokenizer import ChatFormat, Tokenizer
 
 from fairscale.nn.model_parallel.initialize import (
     initialize_model_parallel,
@@ -48,11 +48,24 @@ class Llama:
         with open(Path(ckpt_dir) / "params.json", "r") as f:
             params = json.loads(f.read())
 
-        model_args = ModelArgs(
+        SUPPORTED_ARGS = {
+            'dim', 'n_layers', 'n_heads', 'n_kv_heads', 'vocab_size',
+            'multiple_of', 'ffn_dim_multiplier', 'norm_eps', 'rope_theta'
+        }
+
+        filtered_params = {}
+        for key in SUPPORTED_ARGS:
+            if key in params:
+                val = params[key]
+                filtered_params[key] = int(val) if isinstance(val, (int, float)) and key != 'ffn_dim_multiplier' else float(val) if key == 'ffn_dim_multiplier' else val
+
+        model_args: ModelArgs = ModelArgs(
             max_seq_len=max_seq_len,
             max_batch_size=max_batch_size,
-            **params
+            **filtered_params  
         )
+
+        print(f"📊 使用参数: {filtered_params}")
 
         tokenizer = Tokenizer(model_path=tokenizer_path)
 

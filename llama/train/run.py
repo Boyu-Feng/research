@@ -1,10 +1,11 @@
-from new_model import Llama
-from training import Training
-
+import sys
+print(sys.path)
+from llama.train.new_model import Llama
+from llama.train.training import Training
 
 llama = Llama.build(
-    ckpt_dir="ckpt",
-    tokenizer_path="tokenizer.model",
+    ckpt_dir="llama/checkpoints/Meta-Llama-3.1-8B-Instruct/original",
+    tokenizer_path="llama/checkpoints/Meta-Llama-3.1-8B-Instruct/original/tokenizer.model",
     max_seq_len=1024,
     max_batch_size=1,
 )
@@ -16,6 +17,7 @@ trainer = Training(
 )
 
 trainer.train(
+    trainer,
     epochs=1,
     lr=1e-4,
 )
